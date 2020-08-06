@@ -39,6 +39,15 @@ task('craft:project_config:sync', function () {
     run('{{bin/php}} {{release_path}}/craft project-config/sync');
 });
 
+/*
+    Craft 3.5 uses the apply command to keep envs in sync:
+    https://craftcms.com/knowledge-base/upgrading-to-craft-3-5#project-config-workflow
+*/
+desc('Execute craft project-config/apply');
+task('craft:project_config:apply', function () {
+    run('{{bin/php}} {{release_path}}/craft project-config/apply');
+});
+
 desc('Execute craft cache/flush-all');
 task('craft:cache:flush_all', function () {
     run('{{bin/php}} {{release_path}}/craft cache/flush-all');
