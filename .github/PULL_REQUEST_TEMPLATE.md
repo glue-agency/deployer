@@ -1,14 +1,9 @@
-| Q             | A
-| ------------- | ---
-| Bug fix?      | Yes or No
-| New feature?  | Yes or No
-| BC breaks?    | Yes or No
-| Deprecations? | Yes or No
-| Fixed tickets | N/A or xx
+- [ ] Bug fix #…?
+- [ ] New feature?
+- [ ] BC breaks?
+- [ ] Deprecations?
+- [ ] Tests added?
+- [ ] Changelog updated?
 
-> Do not forget to add notes about your changes to CHANGELOG.md
->
-> Easiest way to do it, by running next command:
->
->     php bin/changelog
->
+      Please, update CHANGELOG.md by running next command:
+      $ php bin/changelog
