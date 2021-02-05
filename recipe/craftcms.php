@@ -6,8 +6,8 @@
  */
 
 namespace Deployer;
+require 'recipe/common.php';
 
-require_once __DIR__ . '/common.php';
 
 set('shared_dirs', [
     'storage',
